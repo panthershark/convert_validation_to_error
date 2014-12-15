@@ -1,0 +1,17 @@
+{
+  "name": "convert_validation_to_error",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec -u tdd test/tests/*.js"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tommymessbauer/convert_validation_to_error.git"
+  },
+  "devDependencies": {},
+  "description": "Converts a json schema validation response to an Error object"
+}
